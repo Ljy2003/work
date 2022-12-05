@@ -1,17 +1,41 @@
-<mxfile host="app.diagrams.net" modified="2022-12-05T13:19:35.886Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 Edg/107.0.1418.62" etag="lB22U5xeW_9w7DJ64s8k" version="20.6.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-12-05T13:28:27.720Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 Edg/107.0.1418.62" etag="E_8O60USDe7AqPaQnT2o" version="20.6.0" type="github">
   <diagram id="f3gi9VGK3Wbzm6yDxLKB" name="第 1 页">
     <mxGraphModel dx="1162" dy="634" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="PweHEaQFmsJU2Y8goGpn-1" value="视频输入" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="300" y="40" width="90" height="30" as="geometry" />
+          <mxGeometry x="300" y="10" width="90" height="30" as="geometry" />
         </mxCell>
         <mxCell id="PweHEaQFmsJU2Y8goGpn-2" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.62;dx=22.67;direction=south;notch=0;" vertex="1" parent="1">
-          <mxGeometry x="337" y="80" width="16" height="60" as="geometry" />
+          <mxGeometry x="337" y="50" width="16" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="PweHEaQFmsJU2Y8goGpn-5" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.62;dx=22.67;direction=south;notch=0;" vertex="1" parent="1">
-          <mxGeometry x="650" y="50" width="16" height="60" as="geometry" />
+        <mxCell id="PweHEaQFmsJU2Y8goGpn-8" value="人体检测" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="110" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PweHEaQFmsJU2Y8goGpn-10" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.62;dx=22.67;direction=south;notch=0;" vertex="1" parent="1">
+          <mxGeometry x="337" y="150" width="16" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="PweHEaQFmsJU2Y8goGpn-11" value="人体跟踪" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="210" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PweHEaQFmsJU2Y8goGpn-12" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.62;dx=22.67;direction=south;notch=0;" vertex="1" parent="1">
+          <mxGeometry x="337" y="250" width="16" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="PweHEaQFmsJU2Y8goGpn-13" value="关键点检测" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="310" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PweHEaQFmsJU2Y8goGpn-14" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.62;dx=22.67;direction=south;notch=0;" vertex="1" parent="1">
+          <mxGeometry x="337" y="350" width="16" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="PweHEaQFmsJU2Y8goGpn-15" value="移动平均处理" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="410" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PweHEaQFmsJU2Y8goGpn-16" value="" style="edgeStyle=segmentEdgeStyle;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="330" as="sourcePoint" />
+            <mxPoint x="440" y="280" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
